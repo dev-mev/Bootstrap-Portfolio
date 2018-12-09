@@ -51,8 +51,12 @@ hr{
     border: none;
 }
 
-section{
+#aboutMeContainer{
     background-color: #ffffff;
+}
+
+section{
+    background-color: #ffffff
 }
 
 footer{
