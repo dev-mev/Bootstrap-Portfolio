@@ -5,61 +5,58 @@ body {
     margin-bottom: 100px;
 }
 
-p{
+p {
     line-height: 150%;
 }
 
-#headerBg{
+#headerBg {
     background-color: #ffffff;
 }
 
-h1{
+h1 {
     color: #ffffff;
     background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-h2{
+h2 {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif; 
 }
 
-a:link {
-    color: #4aaaa5;
-}
-
-nav a:link {
+.nav-link {
     color: #777777;
     text-decoration: none;
 }
 
-a:visited {
+.nav-link:visited {
     color: #777777;
 }
 
-nav a:hover, a:hover{
+.nav-link:hover {
     color: #4aaaa5;
 }
 
-nav a:active, a:active{
+.nav-link:active {
     color: green;
 }
 
-hr{
+hr {
     height: 2px;
     background-color: #dddddd;
     border: none;
 }
 
-#aboutMeContainer{
+#aboutMeContainer {
     background-color: #ffffff;
+    margin-bottom: 40px;
 }
 
-section{
+section {
     background-color: #ffffff
 }
 
-footer{
+footer {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -70,10 +67,66 @@ footer{
 }
 
 /*PORTFOLIO PAGE*/
-.portfolioImageBanner{
-    position: absolute; 
-    bottom: 15px; 
-    width: 300px; 
-    background-color: #4aaaa5;
-    color:#ffffff;
+#projects-container {
+  background-color: #ffffff;
+}
+
+.project-card {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.info-container {
+  background-color: rgba(41, 41, 41, .75);
+  position: absolute;
+  height: 300px;
+  width: 95%;
+  bottom: -245px;
+  transition-duration: .5s;
+  overflow: hidden;
+}
+
+.info-container:hover {
+  bottom: -62px;
+}
+
+.portfolioImageBanner {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  background-color: #4aaaa5;
+  color:#ffffff;
+}
+
+.description {
+  position: relative;
+  top: 60px;
+  color: white;
+  padding: 15px;
+}
+
+.project-card {
+  padding: inherit;
+
+}
+
+.project-card img {
+  width: 95%;
+}
+
+.project-link {
+  color: #ad0174;
+  text-decoration: none;
+}
+
+.project-link:visited {
+  color: #db73b8;
+}
+
+.project-link:hover {
+  color: #4aaaa5;
+}
+
+.project-link:active{
+  color: green;
 }
