@@ -11,12 +11,17 @@ p {
 
 #headerBg {
     background-color: #ffffff;
+
 }
 
 h1 {
     color: #ffffff;
     background-color: #FF4646;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.grid {
+  padding: 0;
 }
 
 h2 {
@@ -37,19 +42,16 @@ h2 {
     color: #FF4646;
 }
 
-.nav-link:active {
-    color: green;
-}
-
 hr {
     height: 2px;
     background-color: #dddddd;
     border: none;
 }
 
-#aboutMeContainer {
+#about-container {
     background-color: #ffffff;
     margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 #my-pic {
@@ -70,7 +72,7 @@ footer {
     border-top: 7px solid #FF4646;
 }
 
-/*PORTFOLIO PAGE*/
+/*PROJECTS SECTION*/
 #projects-container {
   background-color: #ffffff;
 }
@@ -135,6 +137,11 @@ footer {
 }
 
 /*CONTACT PAGE*/
+#contact-container {
+  background-color: #ffffff;
+  margin-top: 40px;
+}
+
 i {
   font-size: 3em;
 }
