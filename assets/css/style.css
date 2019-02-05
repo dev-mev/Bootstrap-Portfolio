@@ -15,12 +15,12 @@ p {
 
 h1 {
     color: #ffffff;
-    background-color: #4aaaa5;
+    background-color: #FF4646;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h2 {
-    color: #4aaaa5;
+    color: #FF4646;
     font-family: Georgia, 'Times New Roman', Times, serif; 
 }
 
@@ -34,7 +34,7 @@ h2 {
 }
 
 .nav-link:hover {
-    color: #4aaaa5;
+    color: #FF4646;
 }
 
 .nav-link:active {
@@ -63,7 +63,7 @@ footer {
     background-color: #666666;
     color: #ffffff;
     text-align: center;
-    border-top: 7px solid #4aaaa5;
+    border-top: 7px solid #FF4646;
 }
 
 /*PORTFOLIO PAGE*/
@@ -94,7 +94,7 @@ footer {
   position: absolute;
   width: 100%;
   top: 0px;
-  background-color: #4aaaa5;
+  background-color: #FF4646;
   color:#ffffff;
 }
 
@@ -115,16 +115,16 @@ footer {
 }
 
 .project-link {
-  color: #ad0174;
+  color: #FFB5B5;
   text-decoration: none;
 }
 
 .project-link:visited {
-  color: #db73b8;
+  color: #99cccc;
 }
 
 .project-link:hover {
-  color: #4aaaa5;
+  color: #FF4646;
 }
 
 .project-link:active{
