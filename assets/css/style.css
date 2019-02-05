@@ -52,6 +52,10 @@ hr {
     margin-bottom: 40px;
 }
 
+#my-pic {
+  border-radius: 30px;
+}
+
 section {
     background-color: #ffffff
 }
@@ -71,11 +75,6 @@ footer {
   background-color: #ffffff;
 }
 
-.project-card {
-  overflow: hidden;
-  margin-bottom: 20px;
-}
-
 .info-container {
   background-color: rgba(41, 41, 41, .75);
   position: absolute;
@@ -88,6 +87,7 @@ footer {
 
 .info-container:hover {
   bottom: -62px;
+  border-radius: 10px;
 }
 
 .portfolioImageBanner {
@@ -106,12 +106,15 @@ footer {
 }
 
 .project-card {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
   padding: inherit;
-
 }
 
 .project-card img {
   width: 95%;
+  border-radius: 10px;
 }
 
 .project-link {
@@ -129,4 +132,23 @@ footer {
 
 .project-link:active{
   color: green;
+}
+
+/*CONTACT PAGE*/
+i {
+  font-size: 3em;
+}
+
+.contact-link {
+  color: #777777;
+  text-decoration: none;
+}
+
+.contact-link:visited {
+  color: #777777;
+}
+
+.contact-link:hover {
+  color: #FF4646;
+  text-decoration: none;
 }
