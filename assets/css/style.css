@@ -11,17 +11,12 @@ p {
 
 #headerBg {
     background-color: #ffffff;
-
 }
 
 h1 {
     color: #ffffff;
     background-color: #FF4646;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.grid {
-  padding: 0;
 }
 
 h2 {
@@ -58,10 +53,6 @@ hr {
   border-radius: 30px;
 }
 
-section {
-    background-color: #ffffff
-}
-
 footer {
     position: fixed;
     bottom: 0;
@@ -73,23 +64,18 @@ footer {
 }
 
 /*PROJECTS SECTION*/
-#projects-container {
-  background-color: #ffffff;
-}
-
 .info-container {
   background-color: rgba(41, 41, 41, .75);
   position: absolute;
   height: 300px;
-  width: 95%;
-  bottom: -245px;
+  top: 76%;
   transition-duration: .5s;
-  overflow: hidden;
+  text-align: left;
+  width: 100%
 }
 
 .info-container:hover {
-  bottom: -62px;
-  border-radius: 10px;
+  top: 0;
 }
 
 .portfolioImageBanner {
@@ -108,16 +94,16 @@ footer {
 }
 
 .project-card {
+  background-color: pink;
   border-radius: 10px;
   overflow: hidden;
-  margin-bottom: 20px;
-  padding: inherit;
+  position: relative;
 }
 
-.project-card img {
-  width: 95%;
+.project-image {
   border-radius: 10px;
-}
+  width: 100%;
+} 
 
 .project-link {
   color: #FFB5B5;
@@ -130,10 +116,6 @@ footer {
 
 .project-link:hover {
   color: #FF4646;
-}
-
-.project-link:active{
-  color: green;
 }
 
 /*CONTACT PAGE*/
