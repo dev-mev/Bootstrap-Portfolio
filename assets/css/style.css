@@ -74,7 +74,7 @@ footer {
   width: 100%
 }
 
-.info-container:hover, .info-container:focus {
+.info-container:hover, .info-container:active {
   top: 0;
 }
 
